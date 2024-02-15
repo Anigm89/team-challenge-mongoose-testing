@@ -1,0 +1,21 @@
+POST http://localhost:3000/create
+Content-Type: application/json
+
+{
+    "title": "publicacion1",
+    "body": "cuerpo de la publicación 1"
+}
+
+###
+
+
+PUT http://localhost:3000/id/65cdd3e9b5f618fa673d1e08
+Content-Type: application/json
+
+{
+    "title": "Publicación2",
+    "body": "cuerpo de la segunda publicación"
+}
+
+###
+DELETE http://localhost:3000/id/65cdd3e9b5f618fa673d1e08
